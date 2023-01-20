@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "IndieFlower";
+    src: url('IndieFlower-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url('Lobster-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url('Oswald-VariableFont_wght.ttf');
+}
+
+body {
+    transition-duration: 0.5s;
+}
+
+body:hover {
+    transform: scale(1.02);
+    transition-duration: 0.5s;
+}
+
+.container {
+    max-width: 1100px !important;
+}
+
+.main-container {
+    border-radius: 10px;
+    border-left: 44px solid #048B9A;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.left-column {
+    background-color: #a5d1cf;
+}
+
+.name {
+    font-family: 'Oswald';
+    margin-top: 5px;
+}
+
+.title {
+    font-family: 'Lobster';
+    font-size: x-large;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 150px;
+    transition: 0.5s;
+}
+
+p + hr {
+    height: 4px;
+    background-color: #000000;
+    margin-top: -15px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
+}
+
+section {
+    transition-duration: 0.5s;
+}
+
+section:hover {
+    transform: scale(1.02);
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+p>a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.experience-list {
+    list-style-type: square;
+}
+
+.langues {
+    list-style-type: circle;
+}
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.right-column {
+    background-image: url('../image/fond.png');
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
