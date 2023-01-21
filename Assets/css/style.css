@@ -103,3 +103,39 @@ p>a {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+@page {
+    margin: 0%;
+}
+@media print {
+    body {
+		font-size: 72% !important; 
+        /* padding: 0%; */
+		background-color: transparent;
+        -webkit-print-color-adjust: exact !important;
+        /* padding-top: 5px !important; */
+	}
+    .container{
+        margin: 0%;
+    }
+    .main-container {
+		border-radius: none;
+	}
+    .main-container > .row {
+        width: 52%;
+		box-shadow: none;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: stretch;
+        
+	}
+    section:hover {
+        transform: scale(1);
+        box-shadow: 0 0 0px;
+        padding: 0px;
+        border-radius: 0px;
+    }
+
+    body:hover {
+        transform: scale(1);
+    }
+}
